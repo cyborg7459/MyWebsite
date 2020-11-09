@@ -132,6 +132,10 @@ strong {
     background-size: cover;
 }
 
+#intro {
+    max-width: 900px;
+}
+
 #intro .col {
     display: flex;
     flex-direction: column;
