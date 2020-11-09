@@ -7,8 +7,13 @@
     font-size: 14px;
 }
 
+html {
+    max-width: 100vw;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
+    max-width: 100vw!important;
 }
 
 strong {

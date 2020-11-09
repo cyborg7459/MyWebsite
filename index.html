@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="topnav">
-        <a class="navbar-brand" id="name-logo" href="#">
+        <a data-aos='fade-right' class="navbar-brand" id="name-logo" href="#">
             <img id="logo-img" src="./img/name-logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,24 +21,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navcollapse">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#cover">Home</a>
-            <a class="nav-item nav-link" href="#about">About</a>
-            <a class="nav-item nav-link" href="#tech">Tech</a>
-            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a data-aos='fade-down' class="nav-item nav-link active" href="#cover">Home</a>
+            <a data-aos='fade-down' class="nav-item nav-link" href="#about">About</a>
+            <a data-aos='fade-down' class="nav-item nav-link" href="#tech">Tech</a>
+            <a data-aos='fade-down' class="nav-item nav-link" href="#projects">Projects</a>
           </div>
         </div>
       </nav>
     <div id="cover">
         <div class="overlay">
-            <h1 class="display-1">Hi, I'm Shreyash</h1>
-            <h1 class="display-3">Welcome to my Website</h1>
+            <h1 data-aos='fade-left' class="display-1">Hi, I'm Shreyash</h1>
+            <h1 data-aos='fade-left' class="display-3">Welcome to my Website</h1>
         </div>
     </div>
     <div id="about" class="section">
-        <h1 class="section-heading">About Me</h1>
+        <h1 data-aos='fade-right' class="section-heading">About Me</h1>
         <div class="container d-flex flex-column align-items-center py-5">
-            <h1 class="display-3">Shreyash Kumar Singh</h1>
-            <h1 class="display-4">
+            <h1 data-aos='fade-up' class="display-3">Shreyash Kumar Singh</h1>
+            <h1 data-aos='fade-up' class="display-4">
                 I'm a 
                 <span class="display-4" id="traits" traits='["Full-Stack Developer", "Competitive Programmer", "Sports Buff", "Musician"]'></span>
             </h1>
@@ -45,9 +46,9 @@
             <div id="intro" class="pt-5">
                 <div class="row">
                     <div class="col-lg-5 mb-4 mb-md-0 col img-col">
-                        <div class="img-fluid rounded-circle" alt="Profile Image" id="profile-img"></div>
+                        <div data-aos='fade-right' class="img-fluid rounded-circle" alt="Profile Image" id="profile-img"></div>
                     </div>
-                    <div class="col-lg-7 col">
+                    <div data-aos='fade-left' class="col-lg-7 col">
                         <div class="lead">
                             <strong class="lead">Date of Birth : </strong>
                             1 January 2001
@@ -74,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="about-me" class="py-5">
+                <div data-aos='fade-right' id="about-me" class="py-5">
                     <h1 class="text-center">Who am I?</h1>
                     <hr class="subsection-hr">
                     <p class="lead">
@@ -85,7 +86,7 @@
                     </p>
                     
                 </div>
-                <div id="connect">
+                <div data-aos='fade-left' id="connect">
                     <h1 class="text-center">Connect with Me</h1>
                     <hr class="subsection-hr">
                     <div id="connect-links">
@@ -117,10 +118,10 @@
         </div>
     </div>
     <div id="tech" class="section">
-        <h1 class="section-heading">Tech Details</h1>
+        <h1 data-aos='fade-right' class="section-heading">Tech Details</h1>
         <div class="container">
             <div class="row py-5">
-                <div class="col-lg-6 mb-4 mb-md-0">
+                <div data-aos='fade-right' class="col-lg-6 mb-4 mb-md-0">
                     <h1 class="text-center">What I Know</h1>
                     <hr class="subsection-hr">
                     <h3>Front-End Development</h3>
@@ -136,7 +137,7 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-lg-6">
+                <div data-aos='fade-left' class="col-lg-6">
                     <h1 class="text-center mt-5 mt-lg-0">My Tech Stack</h1>
                     <hr class="subsection-hr">
                     <p class="lead text-center">A list of the various languages, frameworks and utilities that I use</p>
@@ -160,13 +161,13 @@
         </div>
     </div>
     <div id="projects" class="section">
-        <h1 class="section-heading">My Projects</h1>
+        <h1 data-aos='fade-right' class="section-heading">My Projects</h1>
         <div class="container py-5">
-            <h1 class="display-4 text-center">A look at some of the things I've built so far...</h1>
+            <h1 data-aos='zoom-in' class="display-4 text-center">A look at some of the things I've built so far...</h1>
             <div id="project-cards-region" class="py-5">
                 <div class="row">
                     <div class="col-md-6 col-xl-3">
-                        <div class="card">
+                        <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/fashionvilla1.png" class="card-img-top">
                             </div>
@@ -184,7 +185,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
-                        <div class="card">
+                        <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/yelpcamp.png" class="card-img-top">
                             </div>
@@ -201,7 +202,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
-                        <div class="card">
+                        <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/mealfinder2.png" class="card-img-top">
                             </div>
@@ -218,7 +219,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
-                        <div class="card">
+                        <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/speakup.png" class="card-img-top">
                             </div>
@@ -235,7 +236,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
-                        <div class="card">
+                        <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/calenderjs.png" class="card-img-top">
                             </div>
@@ -252,7 +253,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
-                        <div class="card">
+                        <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/githubfinder2.png" class="card-img-top">
                             </div>
@@ -269,7 +270,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
-                        <div class="card">
+                        <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/patatap.png" class="card-img-top">
                             </div>
@@ -302,7 +303,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration : 1000,
+            mirror : true,
+            easing : 'ease-in-out'
+        });
+    </script>
 </body>
 </html>
